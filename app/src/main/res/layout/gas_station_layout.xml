@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+    >
+
+
+
+
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="PETROL"-->
+        <!--android:id="@+id/petrol"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:textSize="40dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:background="#ea1c24"-->
+        <!--android:layout_marginTop="3dp"-->
+        <!--android:layout_marginLeft="3dp"-->
+        <!--android:layout_marginRight="3dp"/>-->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BS Moravče"
+        android:id="@+id/imeCrpalke"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:background="#ea1c24"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:padding="2dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Partizanska cesta 18, 1251 Moravče"
+        android:id="@+id/naslovCrpalke"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:background="#ea1c24"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_below="@+id/imeCrpalke"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/imgCene"
+        android:background="#ffffff"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/naslovCrpalke"
+        android:paddingBottom="12dp"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Nalagam cenik..."
+        android:id="@+id/imgSrc"
+        android:gravity="center_horizontal"
+        android:background="#ffffff"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_below="@+id/imgCene"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/status"
+        android:gravity="center_horizontal"
+        android:background="#2b2a8b"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_below="@+id/imgSrc"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="telefon"
+        android:id="@+id/telefon"
+        android:gravity="center_horizontal"
+        android:textColor="#2b2a8b"
+        android:textSize="20dp"
+        android:phoneNumber="true"
+        android:background="#ffffff"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+
+        android:layout_below="@+id/status"/>
+</LinearLayout>
